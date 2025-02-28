@@ -34,7 +34,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "TestNG.PayDayTest.executor": "Run",
+    "TestNG.PayDayTest.test1formatDollars.executor": "Run",
     "TestNG.PayDayTest.test1grossPay.executor": "Run",
+    "TestNG.PayDayTest.test1pay.executor": "Run",
+    "TestNG.PayDayTest.test2formatDollars.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/christian/Projects/PayDay"
@@ -46,24 +49,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.PayDayTest">
-    <configuration name="PayDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PayDay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rocks.zipcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="liberica-full-17" />
-      <option name="PACKAGE_NAME" value="rocks.zipcode" />
-      <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PayDayTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PayDay" />
       <extension name="coverage">
@@ -99,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayDayTest.test1grossPay" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PayDayTest.test1pay" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PayDay" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +94,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="rocks.zipcode" />
       <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
-      <option name="METHOD_NAME" value="test1grossPay" />
+      <option name="METHOD_NAME" value="test1pay" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -135,20 +120,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PayDayTest.test2pay" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PayDay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rocks.zipcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rocks.zipcode" />
+      <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
+      <option name="METHOD_NAME" value="test2pay" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.PayDayTest" />
       <item itemvalue="TestNG.PayDayTest.test1formatDollars" />
-      <item itemvalue="TestNG.PayDayTest.test1grossPay" />
+      <item itemvalue="TestNG.PayDayTest.test1pay" />
       <item itemvalue="TestNG.PayDayTest.test2formatDollars" />
+      <item itemvalue="TestNG.PayDayTest.test2pay" />
       <item itemvalue="TestNG.PayDayTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.PayDayTest" />
+        <item itemvalue="TestNG.PayDayTest.test2pay" />
+        <item itemvalue="TestNG.PayDayTest.test1pay" />
         <item itemvalue="TestNG.PayDayTest.test2formatDollars" />
         <item itemvalue="TestNG.PayDayTest.test1formatDollars" />
-        <item itemvalue="TestNG.PayDayTest.test1grossPay" />
-        <item itemvalue="JUnit.PayDayTest" />
       </list>
     </recent_temporary>
   </component>
