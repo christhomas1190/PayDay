@@ -58,7 +58,7 @@ public class PayDay {
 
     // each of these will be USED inside of pay() ^^^^^
     public double grossPay(double rate, double hours) {
-        
+
         return rate * hours;
     }
     public double deductTax(double gross, double taxRate) {
@@ -79,7 +79,8 @@ public class PayDay {
      * USE this inside of pay() as well!
      */
     public String formatDollars(double amount) {
-        return "1.00";
+        return String.format("%.2f",amount);
+//        return "1.00";
     }
 
     /**

@@ -64,38 +64,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayDayTest.test1grossPay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PayDay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rocks.zipcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rocks.zipcode" />
-      <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
-      <option name="METHOD_NAME" value="test1grossPay" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PayDayTest.test2grossPay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PayDay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rocks.zipcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rocks.zipcode" />
-      <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
-      <option name="METHOD_NAME" value="test2grossPay" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PayDayTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PayDay" />
       <extension name="coverage">
@@ -107,6 +75,24 @@
       <option name="PACKAGE_NAME" value="rocks.zipcode" />
       <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayDayTest.test1formatDollars" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PayDay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rocks.zipcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rocks.zipcode" />
+      <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
+      <option name="METHOD_NAME" value="test1formatDollars" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -131,20 +117,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PayDayTest.test2formatDollars" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PayDay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rocks.zipcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rocks.zipcode" />
+      <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
+      <option name="METHOD_NAME" value="test2formatDollars" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.PayDayTest.test1grossPay" />
-      <item itemvalue="JUnit.PayDayTest.test2grossPay" />
       <item itemvalue="JUnit.PayDayTest" />
+      <item itemvalue="TestNG.PayDayTest.test1formatDollars" />
       <item itemvalue="TestNG.PayDayTest.test1grossPay" />
+      <item itemvalue="TestNG.PayDayTest.test2formatDollars" />
       <item itemvalue="TestNG.PayDayTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.PayDayTest" />
+        <item itemvalue="TestNG.PayDayTest.test2formatDollars" />
+        <item itemvalue="TestNG.PayDayTest.test1formatDollars" />
         <item itemvalue="TestNG.PayDayTest.test1grossPay" />
         <item itemvalue="JUnit.PayDayTest" />
-        <item itemvalue="JUnit.PayDayTest.test2grossPay" />
-        <item itemvalue="JUnit.PayDayTest.test1grossPay" />
       </list>
     </recent_temporary>
   </component>
