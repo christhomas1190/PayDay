@@ -58,14 +58,15 @@ public class PayDay {
 
     // each of these will be USED inside of pay() ^^^^^
     public double grossPay(double rate, double hours) {
-        double gp = rate * hours;
-        return gp;
+        
+        return rate * hours;
     }
     public double deductTax(double gross, double taxRate) {
-        return -1.0;
+        return gross * taxRate;
     }
     public double netPay(double gross, double deduction) {
-        return -1.0;
+
+        return gross-deduction;
     }
 
     /*
